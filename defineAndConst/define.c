@@ -15,4 +15,6 @@ int main() {
   area = LENGTH * WIDTH;
   printf("value of area = %d", area);
   printf("%c", NEWLINE);
+
+  return 0;
 }

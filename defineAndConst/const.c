@@ -1,7 +1,7 @@
 // There are two simple ways in C to define constants −
 // Using #define preprocessor.
 // Using const keyword.
-// const type variable = value;
+// const type variable(ID) = value;
 
 #include <stdio.h>
 
