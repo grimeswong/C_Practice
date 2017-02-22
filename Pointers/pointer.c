@@ -15,7 +15,7 @@ int main() {
 
   ip = &var;  //store address of var in variable declaration
 
-  printf("Address of var variable: %x\n", &var  );
+      printf("Address of var variable: %x\n", &var  );  //%x Unsigned hexadecimal value, lower case a-f, no leading 0 or x
 
   /* address stored in pointer variable */
   printf("Address stored in ip variable :%x\n", &var);
@@ -25,3 +25,7 @@ int main() {
 
   return 0;
 }
+// Result:
+// Address of var variable: 57becb78
+// Address stored in ip variable :57becb78
+// Value of *ip variable :20
