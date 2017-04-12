@@ -14,7 +14,7 @@ char *catString(char *pointer);
 void catStringRef(char *pointer);
 
 int main(void) {
-  strcat(str1,str2); //if str1 array has only 4, the str1 doesn't have enought room for storing the concatinated word with str2;
+  strcat(str1,str2); //if str1 array has only 4, the str1 doesn't have enough room for storing the concatinated word with str2;
   cPtr = &str2[0];
 
   printf("%s\n", cPtr);   //print 123

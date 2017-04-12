@@ -1,3 +1,7 @@
+// File Name: getopt.c
+// Program Purpose: get the arguments with flags (options)
+//
+
 /*** Preprocessor ***/
 #include <ctype.h>
 #include <errno.h>

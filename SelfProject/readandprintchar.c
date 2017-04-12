@@ -1,4 +1,6 @@
-
+// File Name: readandprintchar.c
+// Program Purpose: read the characters from the keyboard, then print out the characters
+//
 
 
 #include <stdio.h>
