@@ -6,7 +6,7 @@
 int main() {
 
   char abcString[26] = {'A', 'B', 'C'}; // Assign the char array to store String
-  // char abcString[] = {'A', 'B', 'C'};  //Also work
+  // char abcString[] = {'A', 'B', 'C'};  //Also work: 
   char altString[26] = "DEF";
   char *strPointer = &abcString[0];        // Assign a char pointer to point to the address of char array
   char *altPointer = &altString;
