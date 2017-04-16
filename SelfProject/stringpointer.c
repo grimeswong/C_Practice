@@ -1,4 +1,6 @@
-
+// File Name: stringpointer.c
+// Program Purpose:  
+//
 
 
 #include <stdio.h>
