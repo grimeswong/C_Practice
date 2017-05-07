@@ -20,12 +20,23 @@ int main()
 
 
   for (int i=0 ; i<2; i++) {
-    pthread_create(&tid[i], NULL, (void *) printCounter, &thread[i]);   // last one is type casting (pointer)
+    pthread_create(&tid[i], NULL, (void *)printCounter, &thread[i]);   // last one is type casting (pointer)
   }
 
   for (int i=0; i<2; i++) {
     pthread_join(tid[i], NULL);
   }
+  // result as below:
+  // Thread 1 Counter: 1
+  // Thread 2 Counter: 1
+  // Thread 1 Counter: 2
+  // Thread 2 Counter: 2
+  // Thread 1 Counter: 3
+  // Thread 2 Counter: 3
+  // Thread 1 Counter: 4
+  // Thread 2 Counter: 4
+  // Thread 1 Counter: 5
+  // Thread 2 Counter: 5
 
 }
 
